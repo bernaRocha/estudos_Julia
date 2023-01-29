@@ -6,3 +6,4 @@ MathConstants.e # ℯ = 2.7182818284590...
 println(log(MathConstants.e)) # 1
 
 # \pi e depois tab
+# \Delta 
