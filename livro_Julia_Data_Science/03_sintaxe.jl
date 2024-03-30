@@ -4,6 +4,8 @@ print(name)
 
 12 * age
 
+println(typeof(age))
+
 ### “What else can I do with integers?” ###
 first(methodswith(Int64), 5)
 
