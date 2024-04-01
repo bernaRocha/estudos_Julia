@@ -27,3 +27,29 @@ function sturges(n)
 end
 
 sturges(50)
+
+# function on all float types
+
+function round_number(x::AbstractFloat)
+    return round(x)
+end
+
+round_number(3.141592)
+
+#### Funções com múltiplos retornos
+
+function add_multiply(x, y)
+    addition = x + y
+    multiplication = x * y
+    return addition, multiplication
+end
+
+add_multiply(3, 9)
+
+function ao_quadrado_ao_cubo(a, b)
+    ao_quadrado = a ^ 2
+    ao_cubo = b ^ 3
+    return ao_quadrado, ao_cubo
+end
+
+ao_quadrado_ao_cubo(2, 3)
